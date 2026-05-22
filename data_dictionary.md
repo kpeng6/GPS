@@ -1,11 +1,11 @@
-# 每个 CSV 文件包含以下已匿名化的字段：
+# Each CSV file contains the following anonymized fields:
 
-| 字段名 | 说明 |
+| Field Name | Description |
 |--------|------|
-| `objectid` | 匿名化的车辆标识符，无法关联到真实车牌或车主 |
-| `starttime` | 发动机开火时刻 |
-| `startlon` | 起点WGS‑84 经度 |
-| `startlat` | 起点WGS‑84 纬度 |
-| `stoptime` | 发动机熄火时刻 |
-| `stoplon` | 终点WGS‑84 经度 |
-| `stoplat` | 终点WGS‑84 纬度 |
+| `objectid` | Anonymized vehicle identifier, which cannot be linked to real license plates or vehicle owners |
+| `starttime` | Engine ignition time |
+| `startlon` | Starting point WGS-84 longitude |
+| `startlat` | Starting point WGS-84 latitude |
+| `stoptime` | Engine shutdown time |
+| `stoplon` | Ending point WGS-84 longitude |
+| `stoplat` | Ending point WGS-84 latitude |
